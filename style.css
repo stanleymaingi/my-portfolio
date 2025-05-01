@@ -1,0 +1,168 @@
+*{
+    margin: 00cm;
+    padding: 00pc;
+    box-sizing: border-box;
+}
+   
+body {
+    block-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(developer1.jpg);
+    background-size: cover;
+}
+
+header {
+    margin-top: 0.5cm;
+    font-size: 4mm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+
+nav {
+    margin-left: 55%;
+    color: cyan;
+    position:absolute;
+    top: 0px;
+    margin-top: 1cm;
+    text-align: right;
+
+}
+    
+
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+    color: cyan;
+}
+
+h3{
+    margin-top: 2cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    font-size:2cm;
+    color: #f4f4f4;
+}
+h4{
+    margin-top: 0.2cm ;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    font-size: 0.7cm;
+    color: cyan;
+}
+h5{
+    margin-top: 0.5cm ;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    font-size: 0.7cm; 
+    color:navy;
+}
+h6{
+    margin-top: 1.5cm ;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    font-size: 0.55cm; 
+    color:cyan;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content h2 {
+    margin-top: 10px;
+    margin-left: 10cm;
+    font-size: 1cm;
+    width: 50%;
+    color: rgb(13, 163, 193);
+}
+
+.left-content h3 {
+    margin-top: 15px;
+    margin-left: 10cm;
+    font-size: 1cm;
+    width: 50%;
+    color: rgb(244, 12, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left-content p {
+    margin-top: 60px;    
+    margin-bottom: 1px; 
+    font-size:6mm;
+    color:cyan;
+    width: 70%;
+    margin-left: 8cm;
+}
+
+.left-content h4 {
+    margin-top: 30px;    
+    margin-bottom: 1px; 
+    font-size:6mm;
+    color:white;
+    width: 70%;
+    margin-left: 10cm;
+}
+
+.right-content img {
+    border-radius: 100%;
+    width: 30%;
+    height: 75vh;
+    overflow: hidden;
+    position: absolute;
+    top: 3cm;
+    left: 0cm;
+}
+footer {
+    background-color: #1a1a1a;       /* Dark background for contrast */
+    color: purple;
+    text-align: center;              /* Centered text */
+    padding: 20px 0;                 /* Vertical padding */
+    font-size: 2cm;                 /* Slightly smaller font */
+    border-top: 2px solid #00bcd4;   /* Optional accent border */
+    position: relative;              /* Allows positioning if needed */
+    bottom: 0;
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+
+
+
+
